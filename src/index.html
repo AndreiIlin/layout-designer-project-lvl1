@@ -5,16 +5,17 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
   <title>layout-designer-project-lvl1 andreiilin</title>
-
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link href="styles/scss/style.css" rel="stylesheet">
 </head>
 <body>
-<header class="bg">
+<header class="bg-img bg-light">
   <div class="container">
     <h1 class="header-title"><span class="text-orange">Когнитивные<br>искажения</span><br>в программировании</h1>
-
-      <img class="header-img" alt="header-img" src="./images/main.png">
-
+    <img alt="header-img" class="header-img" src="./images/main.png">
     <div class="header-description">
       <div class="header-description-left"><p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с
         нашей продуктивностью. Но мы
@@ -24,12 +25,24 @@
         к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
         <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а
           остатки нейтрализовать.</p>
-        <a href="#" class="btn-header">Подробнее</a>
+        <a class="btn btn-header" href="#">Подробнее</a>
       </div>
     </div>
   </div>
 </header>
-<main></main>
+<main>
+  <section class="section-with-video">
+    <div class="container">
+      <h1 class="text-center">Что же это такое,<br><span class="text-orange">когнитивные искажения?</span></h1>
+      <p class="text-center margin-vert-30px">Что такое когнитивные искажения. Petrovna Channel</p>
+      <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section class="bg-dark">
+    <div class="container">
+    </div>
+  </section>
+</main>
 <footer></footer>
 </body>
 </html>
