@@ -207,8 +207,8 @@ h3 {
 }
 
 .main-section-first-element-entries {
-  flex: 1 1 50%;
   line-height: 0;
+  flex: 1 1 50%;
 
   & img {
     filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
@@ -260,4 +260,25 @@ h3 {
 .main-section-third-element-text {
   flex: 1 1 50%;
   margin: 0;
+}
+
+.bg-brown {
+  background-color: $brown;
+
+  & .main-section-first-element {
+    flex-direction: row-reverse;
+  }
+
+  & .main-section-first-element-title {
+    color: $op-white;
+  }
+
+  & .main-section-first-element-header, .main-section-first-element-description, .main-section-third-element-text {
+    color: $white;
+  }
+
+  & .main-section-second-element-header {
+    color: $brown;
+    background: $white;
+  }
 }
