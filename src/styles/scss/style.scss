@@ -95,17 +95,11 @@ h3 {
 
 .header-description {
   display: flex;
-
+  gap: 30px;
 }
 
-.header-description-left {
-  flex-basis: 50%;
-  margin-right: 15px;
-}
-
-.header-description-right {
-  flex-basis: 50%;
-  margin-left: 15px;
+.header-description-item {
+  flex: 1 1 540px;
 }
 
 .btn {
@@ -205,4 +199,65 @@ h3 {
 
 .nav-text {
   margin-bottom: 0;
+}
+
+.main-section-first-element {
+  display: flex;
+  gap: 0 30px;
+}
+
+.main-section-first-element-entries {
+  flex: 1 1 50%;
+  line-height: 0;
+
+  & img {
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  }
+}
+
+.main-section-first-element-title {
+  font-family: Neucha, sans-serif;
+  font-size: 24px;
+  line-height: 1.2em;
+  margin: 0;
+  color: $op-dark;
+}
+
+.main-section-first-element-header {
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: $dark;
+}
+
+.main-section-first-element-description {
+  font-family: Neucha, sans-serif;
+  font-size: 34px;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+.main-section-second-element {
+  display: flex;
+}
+
+.main-section-second-element-header {
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  flex-grow: 1;
+  margin: 100px 0 20px 0;
+  padding: 5px 0 5px 10px;
+  text-transform: uppercase;
+  color: $white;
+  background: $brown;
+}
+
+.main-section-third-element {
+  display: flex;
+  gap: 0 30px;
+}
+
+.main-section-third-element-text {
+  flex: 1 1 50%;
+  margin: 0;
 }
