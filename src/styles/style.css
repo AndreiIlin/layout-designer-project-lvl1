@@ -75,6 +75,10 @@ h3 {
   background-color: #42413c;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .container {
   z-index: 100;
 
