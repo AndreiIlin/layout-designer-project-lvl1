@@ -290,4 +290,71 @@ h3 {
     background: $white;
   }
 }
+.feedback-form {
+  display: flex;
+  background: $main-dark;
+  margin-bottom: 60px;
+}
+.subscribe-text {
+  display: flex;
+  padding: 55px;
+  flex: 1 1 50%;
+  color: $white;
+}
+.entry-field {
+  display: flex;
+  align-items: center;
+  flex: 1 1 50%;
+}
+.form {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.input-form {
+  width: 485px;
+  height: 50px;
+  padding: 15px;
+  &::placeholder {
+    font-family: Open Sans, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #757575;
+  }
+}
 
+.email {
+  color: $white;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.service-rules, .service-rules a {
+  margin-top: 0;
+  color: $white;
+  font-size: 12px;
+}
+.email-form {
+  &::after {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 70px;
+    content: '';
+    background-image: url("../../images/send.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $main;
+    cursor: pointer;
+    &:hover {
+      background-color: #EA7600;
+    }
+  }
+}
+.post-scriptum {
+  font-size: 14px;
+  text-align: center;
+  margin: 16px auto;
+  & a {
+    font-size: 14px;
+  }
+}
