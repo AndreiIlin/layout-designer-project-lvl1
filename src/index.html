@@ -9,7 +9,7 @@
   <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
   <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link href="styles/scss/style.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
 <header class="bg-img bg-light">
@@ -25,7 +25,7 @@
         к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
         <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а
           остатки нейтрализовать.</p>
-        <a class="btn btn-header" href="#">Подробнее</a>
+        <a class="btn btn-header" href="#navigation">Подробнее</a>
       </div>
     </div>
   </div>
@@ -33,44 +33,54 @@
 <main>
   <section class="section-with-video">
     <div class="container">
-      <h1 class="text-center">Что же это такое,<br><span class="text-orange">когнитивные искажения?</span></h1>
+      <h2 class="text-center h1">Что же это такое,<br><span class="text-orange">когнитивные искажения?</span></h2>
       <p class="text-center margin-vert-30px">Что такое когнитивные искажения. Petrovna Channel</p>
-      <iframe allowfullscreen class="video" frameborder="0" height="569" src="https://www.youtube.com/embed/jie9AizBqss"
-              width="919"></iframe>
+      <iframe allowfullscreen class="video" src="https://www.youtube.com/embed/jie9AizBqss"></iframe>
     </div>
   </section>
   <section class="bg-dark">
     <div class="container" id="navigation">
       <div class="nav-element first-nav-element">
-        <h1 class="nav-item-header text-orange">5 когнитивных искажений<br><span class="text-white">о существовании которых стоит помнить</span>
-        </h1>
+        <h2 class="nav-item-header text-orange">5 когнитивных искажений<br><span class="text-white">о существовании которых стоит помнить</span>
+        </h2>
       </div>
       <div class="nav-element nav-hover-element">
-        <p class="nav-number">1</p>
-        <h3 class="text-orange">Эффект ИКЕА</h3>
-        <p class="nav-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+        <a href="#ikea-effect">
+          <p class="nav-number">1</p>
+          <h3 class="text-orange">Эффект ИКЕА</h3>
+          <p class="nav-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения
+            других.</p>
+        </a>
       </div>
       <div class="nav-element nav-hover-element">
-        <p class="nav-number">2</p>
-        <h3 class="text-orange">Преждевременная оптимизация</h3>
-        <p class="nav-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+        <a href="#premature-optimization">
+          <p class="nav-number">2</p>
+          <h3 class="text-orange">Преждевременная оптимизация</h3>
+          <p class="nav-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+        </a>
       </div>
       <div class="nav-element nav-hover-element">
-        <p class="nav-number">3</p>
-        <h3 class="text-orange">Искажение новизны</h3>
-        <p class="nav-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете
-          более старые.</p>
+        <a href="#distortion-of-novelty">
+          <p class="nav-number">3</p>
+          <h3 class="text-orange">Искажение новизны</h3>
+          <p class="nav-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете
+            более старые.</p>
+        </a>
       </div>
       <div class="nav-element nav-hover-element">
-        <p class="nav-number">4</p>
-        <h3 class="text-orange">Гиперболическое обесценивание</h3>
-        <p class="nav-text margin-top-12px">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную,
-          недоступную сейчас, но доступную в будущем.</p>
+        <a href="#hyperbolic-depreciation">
+          <p class="nav-number">4</p>
+          <h3 class="text-orange">Гиперболическое обесценивание</h3>
+          <p class="nav-text margin-top-12px">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную,
+            недоступную сейчас, но доступную в будущем.</p>
+        </a>
       </div>
       <div class="nav-element nav-hover-element">
-        <p class="nav-number">5</p>
-        <h3 class="text-orange">Ошибка планирования</h3>
-        <p class="nav-text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
+        <a href="#errors-in-planning">
+          <p class="nav-number">5</p>
+          <h3 class="text-orange">Ошибка планирования</h3>
+          <p class="nav-text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
+        </a>
       </div>
     </div>
   </section>
@@ -82,13 +92,13 @@
         </div>
         <div class="main-section-first-element-entries">
           <p class="main-section-first-element-title">Когнитивные искажения</p>
-          <h1 class="main-section-first-element-header">Эффект ИКЕА</h1>
+          <h2 class="main-section-first-element-header">Эффект ИКЕА</h2>
           <p class="main-section-first-element-description">Вы переоцениваете собственные решения, и, как следствие,
             недооцениваете решения других.</p>
         </div>
       </div>
       <div class="main-section-second-element">
-        <h2 class="main-section-second-element-header">Как проявляется</h2>
+        <h4 class="main-section-second-element-header">Как проявляется</h4>
       </div>
       <div class="main-section-third-element">
         <p class="main-section-third-element-text">Когнитивное искажение называется так из-за того, что потребители
@@ -107,13 +117,13 @@
         </div>
         <div class="main-section-first-element-entries">
           <p class="main-section-first-element-title">Когнитивные искажения</p>
-          <h1 class="main-section-first-element-header">Преждевременная оптимизация</h1>
+          <h2 class="main-section-first-element-header">Преждевременная оптимизация</h2>
           <p class="main-section-first-element-description">Вы оптимизируете что-то задолго до того, как в этом
             появляется необходимость.</p>
         </div>
       </div>
       <div class="main-section-second-element">
-        <h2 class="main-section-second-element-header">Как проявляется</h2>
+        <h4 class="main-section-second-element-header">Как проявляется</h4>
       </div>
       <div class="main-section-third-element">
         <p class="main-section-third-element-text">Если вы добавите аэродинамический спойлер к своему старому автомобилю
@@ -131,13 +141,13 @@
         </div>
         <div class="main-section-first-element-entries">
           <p class="main-section-first-element-title">Когнитивные искажения</p>
-          <h1 class="main-section-first-element-header">Искажение новизны</h1>
+          <h2 class="main-section-first-element-header">Искажение новизны</h2>
           <p class="main-section-first-element-description">Вы даёте более высокую оценку тем событиям, которые
             произошли недавно, и недооцениваете более старые.</p>
         </div>
       </div>
       <div class="main-section-second-element">
-        <h2 class="main-section-second-element-header">Как проявляется</h2>
+        <h4 class="main-section-second-element-header">Как проявляется</h4>
       </div>
       <div class="main-section-third-element">
         <p class="main-section-third-element-text">Часто это искажение настигает нас, когда нужно решение проблемы и… о!
@@ -156,13 +166,13 @@
         </div>
         <div class="main-section-first-element-entries">
           <p class="main-section-first-element-title">Когнитивные искажения</p>
-          <h1 class="main-section-first-element-header">Гиперболическое обесценивание</h1>
+          <h2 class="main-section-first-element-header">Гиперболическое обесценивание</h2>
           <p class="main-section-first-element-description">Вы гонитесь за немедленной маленькой выгодой и игнорируете
             более крупную, недоступную сейчас, но доступную в будущем.</p>
         </div>
       </div>
       <div class="main-section-second-element">
-        <h2 class="main-section-second-element-header">Как проявляется</h2>
+        <h4 class="main-section-second-element-header">Как проявляется</h4>
       </div>
       <div class="main-section-third-element">
         <p class="main-section-third-element-text">Вы когда-нибудь откладывали написание теста? Ловили себя на
@@ -182,13 +192,13 @@
         </div>
         <div class="main-section-first-element-entries">
           <p class="main-section-first-element-title">Когнитивные искажения</p>
-          <h1 class="main-section-first-element-header">Ошибка планирования</h1>
+          <h2 class="main-section-first-element-header">Ошибка планирования</h2>
           <p class="main-section-first-element-description">Неправильно рассчитывать время необходимое для завершения
             задачи.</p>
         </div>
       </div>
       <div class="main-section-second-element">
-        <h2 class="main-section-second-element-header">Как проявляется</h2>
+        <h4 class="main-section-second-element-header">Как проявляется</h4>
       </div>
       <div class="main-section-third-element">
         <div class="main-section-third-element-text">
@@ -216,14 +226,16 @@
         <form class="form">
           <p class="email">Электронная почта</p>
           <div class="email-form">
-            <input type="text" class="input-form" placeholder="Ваша электронная почта">
+            <input class="input-form" placeholder="Ваша электронная почта" type="text">
           </div>
           <p class="service-rules">Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
         </form>
       </div>
     </div>
     <p class="post-scriptum">© 2022 Ильин Андрей</p>
-    <p class="post-scriptum">По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+    <p class="post-scriptum">По материалам статьи <a
+      href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases
+      in Programming</a></p>
     <p class="post-scriptum"><a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
   </div>
 </footer>

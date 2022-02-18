@@ -46,6 +46,10 @@ h3 {
   font-size: 34px;
 }
 
+.h1 {
+  font-size: 72px;
+}
+
 .text-orange {
   color: $main;
 }
@@ -134,7 +138,10 @@ h3 {
 
 .video {
   display: block;
+  width: 919px;
+  height: 569px;
   margin: 0 auto;
+  border: none;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -181,6 +188,14 @@ h3 {
       color: $white;
     }
   }
+
+  & a {
+    text-decoration: none;
+
+    & p {
+      color: $dark;
+    }
+  }
 }
 
 .nav-item-header {
@@ -224,7 +239,6 @@ h3 {
 }
 
 .main-section-first-element-header {
-  font-size: 60px;
   margin-bottom: 30px;
   color: $dark;
 }
@@ -290,30 +304,36 @@ h3 {
     background: $white;
   }
 }
+
 .feedback-form {
   display: flex;
-  background: $main-dark;
   margin-bottom: 60px;
+  background: $main-dark;
 }
+
 .subscribe-text {
   display: flex;
-  padding: 55px;
   flex: 1 1 50%;
+  padding: 55px;
   color: $white;
 }
+
 .entry-field {
   display: flex;
   align-items: center;
   flex: 1 1 50%;
 }
+
 .form {
   margin-top: 5px;
   margin-left: 15px;
 }
+
 .input-form {
   width: 485px;
   height: 50px;
   padding: 15px;
+
   &::placeholder {
     font-family: Open Sans, sans-serif;
     font-size: 13px;
@@ -323,37 +343,44 @@ h3 {
 }
 
 .email {
-  color: $white;
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 10px;
+  color: $white;
 }
+
 .service-rules, .service-rules a {
+  font-size: 12px;
   margin-top: 0;
   color: $white;
-  font-size: 12px;
 }
+
 .email-form {
   &::after {
     position: absolute;
     right: 0;
-    height: 50px;
     width: 70px;
+    height: 50px;
     content: '';
+    cursor: pointer;
+    background-color: $main;
     background-image: url("../../images/send.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-color: $main;
-    cursor: pointer;
-    &:hover {
+  }
+
+  &:hover {
+    &::after {
       background-color: #EA7600;
     }
   }
 }
+
 .post-scriptum {
   font-size: 14px;
-  text-align: center;
   margin: 16px auto;
+  text-align: center;
+
   & a {
     font-size: 14px;
   }
