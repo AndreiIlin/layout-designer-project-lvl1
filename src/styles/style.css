@@ -145,7 +145,7 @@ h3 {
   display: block;
   width: 919px;
   height: 569px;
-  margin: 0 auto -100px auto;
+  margin: 0 auto -100px;
 
   border: none;
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
@@ -162,6 +162,7 @@ h3 {
 }
 
 .nav-element {
+  display: flex;
   flex: 1 1 350px;
   padding: 24px;
 
